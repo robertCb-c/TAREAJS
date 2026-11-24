@@ -1,0 +1,84 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+    background-image: url(img/navidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-attachment: fixed;
+}
+
+.encabezado {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.encabezado h1 {
+    color: blue;
+}
+
+.menu a {
+    border: 2px solid black;
+    background-color: beige;
+    color: blue;
+    padding: 5px 15px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contenido {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 10px;
+    background-color: azure;
+    background-image: url(img/navidad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-attachment: fixed;
+    color:blue;
+    background-size: 100% 100%;
+}
+
+.pie {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: blue;
+}
+
+
+#maqueta-historia {
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+#cuadro1{
+    background-color: bisque;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cuadro2{
+    background-color: bisque;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+.tarjeta {
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}

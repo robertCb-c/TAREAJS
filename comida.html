@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navidad-Comida</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="encabezado">
+        <h1>Navidad</h1>
+        <div class="menu">
+            <a href="index.html">bienvenida</a>
+            <a href="historia.html">historia</a>
+            <a href="personajes.html">personajes</a>
+            <a href="regalos.html">Regalos</a>
+            <a href="comida.html">Comida</a>
+        </div>
+    </div>
+
+    <div class="contenido">
+        <h2>Compras de navidad!!!!</h2>
+
+        <div class="tarjeta">
+            <h3>Picana Navideña</h3>
+            <p>Precio: 45 Bs</p>
+            <button type="button" onclick="agregarPlato('Picana Navideña', 45)" style="background-color: beige;">Agregarlo</button>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Paneton</h3>
+            <p>Precio: 35 Bs</p>
+            <button type="button" onclick="agregarPlato('Panetón', 35)" style="background-color: beige;">Agregarlo</button>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Cafe de navidad</h3>
+            <p>Precio: 15 Bs</p>
+            <button type="button" onclick="agregarPlato('Chocolate Caliente', 15)"  style="background-color: beige;">Agregarlo</button>
+        </div>
+
+        <h3>Tu Carro:</h3>
+        <ul id="carrito"></ul>
+        <p >Total a pagar(Bs): <input type="text" id="total" value="0" readonly style="background-color: beige;"></p>
+        <button type="button" onclick="vaciarCarrito()" style="background-color: beige;">Vaciar carro!?</button>
+    </div>
+
+    <div class="pie">
+        <h2>diseñado por: Roberto Carlos Baltazar Calcinas</h2>
+    </div>
+
+</body>
+</html>
